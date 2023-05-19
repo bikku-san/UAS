@@ -1,0 +1,63 @@
+*,
+html {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+  text-decoration: none;
+}
+
+body {
+  background-color: rgb(48, 48, 77);
+}
+
+.judul {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 1rem;
+  color: white;
+  font-weight: 700;
+}
+
+.row {
+  padding: 0 8rem;
+  margin: 0 5rem;
+}
+
+.row .col img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  inline-size: 40%;
+  aspect-ratio: 4 / 4;
+  padding-left: 0rem;
+  object-fit: center;
+}
+
+.row .col .cardtitle {
+  text-align: center;
+}
+
+.row .col .card-body p {
+  text-align: center;
+}
+
+.row .col .card-body .cardtitle1 {
+  text-align: center;
+  color: red;
+}
+
+.row .col .card-body .cardtitle2 {
+  text-align: center;
+  color: rgb(0, 76, 255);
+}
+
+.row .col .card-body .cardtitle3 {
+  text-align: center;
+  color: orange;
+}
+
+.row .col button {
+    padding: 0.3rem;
+    border-radius: 2rem;
+}
